@@ -16,7 +16,7 @@ return [...myArray,addition]
 }
 
 function destructivelyAddElementToEndOfArray (myArray,addition) {
-myArray.push (addition)
+return myArray.push (addition)
 }
 
 function accessElementInArray (myArray,position) {
