@@ -11,8 +11,8 @@ return myArray
 }
 
 function addElementToEndOfArray (myArray,addition) {
-[myArray,...addition]
-return myArray
+return [myArray,...addition]
+//return myArray
 }
 
 function destructivelyAddElementToEndOfArray (myArray,addition) {
