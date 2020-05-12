@@ -24,8 +24,8 @@ return myArray[position]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (myArray) {
-return myArray.shift;
-//return myArray
+myArray.shift()
+return myArray
 }
 
 function removeElementFromBeginningOfArray (myArray) {
