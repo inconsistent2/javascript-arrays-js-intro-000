@@ -5,31 +5,39 @@ function addElementToBeginningOfArray (myArray,addition) {
 return myArray
 }
 
-destructivelyAddElementToBeginningOfArray = (myArray,addition) =>
+function destructivelyAddElementToBeginningOfArray (myArray,addition) {
 myArray.unshift (addition)
 return myArray
+}
 
-addElementToEndOfArray = (myArray,addition) =>
+function addElementToEndOfArray (myArray,addition) {
 [myArray,...addition]
 return myArray
+}
 
-destructivelyAddElementToEndOfArray = (myArray,addition)=>
+function destructivelyAddElementToEndOfArray (myArray,addition) {
 myArray.push (addition)
+}
 
-accessElementInArray = (myArray,position) =>
+function accessElementInArray (myArray,position) {
 return myArray[position]
+}
 
-destructivelyRemoveElementFromBeginningOfArray = myArray =>
+function destructivelyRemoveElementFromBeginningOfArray (myArray) {
 myArray.shift;
 return myArray
+}
 
-removeElementFromBeginningOfArray = myArray =>
+function removeElementFromBeginningOfArray (myArray) {
 return myArray.slice(1);
 return myArray
+}
 
-destructivelyRemoveElementFromEndOfArray = myArray =>
+function destructivelyRemoveElementFromEndOfArray (myArray) {
 myArray.pop()
 return myArray
+}
 
-removeElementFromEndOfArray = myArray =>
+function removeElementFromEndOfArray (myArray) {
 return myArray.slice(0,myArray.length-1)
+}
